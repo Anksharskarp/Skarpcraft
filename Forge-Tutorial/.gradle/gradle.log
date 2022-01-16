@@ -72,7 +72,7 @@ javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.pro
 
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 
-	at build_72fsqb0sazlxk4d6a39pdjpd4.run(/Users/shuning/Downloads/Skarpcraft-main/Forge-Tutorial/build.gradle:15)	at build_72fsqb0sazlxk4d6a39pdjpd4.run(/Users/shuning/Downloads/Skarpcraft-main/Forge-Tutorial/build.gradle:15)
+	at build_d0p2us3rb296n751e2eqb5hof.run(/Users/shuning/IdeaProjects/Skarpcraft/Forge-Tutorial/build.gradle:15)	at build_d0p2us3rb296n751e2eqb5hof.run(/Users/shuning/IdeaProjects/Skarpcraft/Forge-Tutorial/build.gradle:15)
 
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 
@@ -236,7 +236,7 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/Users/shuning/Downloads/Skarpcraft-main/Forge-Tutorial/build.gradle' line: 15
+Build file '/Users/shuning/IdeaProjects/Skarpcraft/Forge-Tutorial/build.gradle' line: 15
 
 * What went wrong:
 A problem occurred evaluating root project 'Forge-Tutorial'.
@@ -319,7 +319,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_72fsqb0sazlxk4d6a39pdjpd4.run(/Users/shuning/Downloads/Skarpcraft-main/Forge-Tutorial/build.gradle:15)
+	at build_d0p2us3rb296n751e2eqb5hof.run(/Users/shuning/IdeaProjects/Skarpcraft/Forge-Tutorial/build.gradle:15)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 60 more
 Caused by: java.lang.RuntimeException: Unable to obtain url (https://launchermeta.mojang.com/mc/game/version_manifest.json) with etag!
@@ -335,4 +335,4 @@ Caused by: java.lang.RuntimeException: Unable to obtain url (https://launchermet
 
 CONFIGURE FAILED
 
-Total time: 32.18 secs
+Total time: 29.637 secs
