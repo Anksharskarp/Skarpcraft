@@ -1,0 +1,5 @@
+name: Minecraft Manhunt
+version: '${project.version}'
+main: io.github.anksharskarp.minecraftmanhunt.MinecraftManhunt
+api-version: 1.18
+description: A plugin that allows for the creation of a Minecraft Manhunt game with hunters and speedrunners.

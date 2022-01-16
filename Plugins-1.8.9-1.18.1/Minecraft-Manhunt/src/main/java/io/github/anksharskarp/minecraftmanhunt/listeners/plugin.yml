@@ -1,0 +1,9 @@
+name: MinecraftManhunt
+version: 1.0
+author: Anksharskarp
+main: io.github.anksharskarp.minecraftmanhunt.MinecraftManhunt
+description: Creates a Minecraft Manhunt game with compass tracking tools enabled for the hunter.
+
+commands:
+  manhunt:
+    description: Creates a Minecraft Manhunt game with the specified player as the target.
